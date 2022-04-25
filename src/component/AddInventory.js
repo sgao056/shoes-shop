@@ -22,9 +22,13 @@ export class AddInventory extends Component {
     Submit = e=>{
         e.preventDefault();
         const product = {...this.state}
-        axios.post('products', product).then(res=>{
+        axios.post('products', product)
+        .then(res=>{
             this.props.close(res.data)
             toast.success('Successfully adding')
+        })
+        .catch(()=>{
+            toast.error('Server not found')
         })
     }
 
