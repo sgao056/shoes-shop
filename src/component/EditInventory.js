@@ -24,9 +24,13 @@ export class EditInventory extends Component {
     Submit = e=>{
         e.preventDefault();
         const product = {...this.state}
-        axios.put(`products/${this.state.id}`, product).then(res=>{
+        axios.put(`products/${this.state.id}`, product)
+        .then(res=>{
             this.props.close(res.data)
             toast.success('Successfully Editing')
+        })
+        .catch(()=>{
+            toast.error('Server not found')
         })
     }
 
@@ -35,6 +39,9 @@ export class EditInventory extends Component {
             this.props.deleteData(this.state.id)
             this.props.close()
             toast.success('Successfully Deleting')
+        })
+        .catch(()=>{
+            toast.error('Server not found')
         })
     }
 
