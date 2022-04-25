@@ -5,11 +5,13 @@ import Product from './Product'
 import axios from '../common/axios'
 import Panel from  './Panel'
 import AddInventory from './AddInventory'
+import {products} from '../common/fakeData'
+import { toast } from 'react-toastify'
 
 export default class Products extends Component {
     state = {
-        products: [],
-        productsCopy:[]
+        products: products,
+        productsCopy:products
     }
     
     componentDidMount(){
@@ -19,6 +21,10 @@ export default class Products extends Component {
                 productsCopy: response.data
             })
         })
+        .catch(()=>{
+            toast.error('Server not found, as this is a pure front-end page.')
+        })
+        
     }
 
     search = (text)=>{
@@ -85,6 +91,7 @@ export default class Products extends Component {
                         <TransitionGroup component={null}>
                             {
                                 this.state.products.map(p=>{
+            
                                     return (
                                         <CSSTransition classNames='product-fade' timeout={{enter:300, exit:300}} key={p.id}>
                                             <div className="column is-3" key={p.id}>
