@@ -1,6 +1,6 @@
 {
-  "name": "shoes-management",
-  "homepage": "http://sgao056.github.io/shoes-management",
+  "name": "shoes-shop",
+  "homepage": "http://sgao056.github.io/shoes-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
