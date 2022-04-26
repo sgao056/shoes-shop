@@ -3,7 +3,7 @@ export const products =
       {
         "id": 1,
         "name": "Air Jordan 4",
-        "image": "/images/1.jpg",
+        "image": "/shoes-shop/images/1.jpg",
         "tags": "92 ",
         "price": "59440",
         "status": "available"
@@ -11,7 +11,7 @@ export const products =
       {
         "id": 2,
         "name": "Nike Paul George PG 3",
-        "image": "/images/2.jpg",
+        "image": "/shoes-shop/images/2.jpg",
         "tags": "25 Colors",
         "price": "53800",
         "status": "unavailable"
@@ -19,7 +19,7 @@ export const products =
       {
         "id": 3,
         "name": "Jordan Why Not Zer0.2",
-        "image": "/images/3.jpg",
+        "image": "/shoes-shop/images/3.jpg",
         "tags": "16 Color, y",
         "price": "48900",
         "status": "available"
@@ -27,7 +27,7 @@ export const products =
       {
         "id": 4,
         "name": "Nike Air Foamposite One",
-        "image": "/images/4.jpg",
+        "image": "/shoes-shop/images/4.jpg",
         "tags": "84 Colors",
         "price": "73148",
         "status": "available"
@@ -35,7 +35,7 @@ export const products =
       {
         "id": 5,
         "name": "adidas Harden Vol.3",
-        "image": "/images/5.jpg",
+        "image": "/shoes-shop/images/5.jpg",
         "tags": "34 Colors",
         "price": "46900",
         "status": "available"
@@ -43,7 +43,7 @@ export const products =
       {
         "id": 6,
         "name": "Nike Zoom Kobe 1",
-        "image": "/images/6.jpg",
+        "image": "/shoes-shop/images/6.jpg",
         "tags": "26 Colors",
         "price": "80391",
         "status": "available"
@@ -51,7 +51,7 @@ export const products =
       {
         "id": 7,
         "name": "Nike Hyperdunk X(2018)",
-        "image": "/images/7.jpg",
+        "image": "/shoes-shop/images/7.jpg",
         "tags": "",
         "price": "54600",
         "status": "available"
@@ -59,7 +59,7 @@ export const products =
       {
         "id": 8,
         "name": "Nike KD 12",
-        "image": "/images/8.jpg",
+        "image": "/shoes-shop/images/8.jpg",
         "tags": "",
         "price": "81800",
         "status": "available"
@@ -69,7 +69,7 @@ export const products =
         "price": "38800",
         "status": "available",
         "tags": "",
-        "image": "/images/9.jpg",
+        "image": "/shoes-shop/images/9.jpg",
         "id": 9
       },
       {
@@ -77,7 +77,7 @@ export const products =
         "price": "48900",
         "status": "available",
         "tags": "",
-        "image": "/images/10.jpg",
+        "image": "/shoes-shop/images/10.jpg",
         "id": 10
       },
       {
@@ -85,7 +85,7 @@ export const products =
         "price": "34400",
         "status": "available",
         "tags": "",
-        "image": "/images/11.jpg",
+        "image": "/shoes-shop/images/11.jpg",
         "id": 11
       },
       {
@@ -93,7 +93,7 @@ export const products =
         "price": "44900",
         "status": "available",
         "tags": "",
-        "image": "/images/12.jpg",
+        "image": "/shoes-shop/images/12.jpg",
         "id": 12
       }
     ]
